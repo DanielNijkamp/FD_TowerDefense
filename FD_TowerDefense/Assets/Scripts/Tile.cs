@@ -17,6 +17,9 @@ public class Tile : MonoBehaviour
     [SerializeField] private bool IsWayPoint;
     [SerializeField] private bool IsPath;
 
+    
+
+
 
     private void Update()
     {
@@ -46,6 +49,7 @@ public class Tile : MonoBehaviour
         
         return IsSpawnPoint;
     }
+    
 
 
 }
